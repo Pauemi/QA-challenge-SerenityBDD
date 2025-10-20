@@ -29,7 +29,7 @@ public class PurchaseFlowTest {
                 AddItemsToCart.backpackAndBikeLight(),
                 GoToCart.view(),
                 ProceedToCheckout.now(),
-                FillCheckoutInformation.with("Emilia", "Gonzalez", "170301"),
+                FillCheckoutInformation.with("Emilia", "Camino", "170301"),
                 FinishPurchase.now()
         );
 

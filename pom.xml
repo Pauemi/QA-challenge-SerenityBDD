@@ -10,7 +10,19 @@
         <java.version>17</java.version>
         <serenity.version>4.2.34</serenity.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <cucumber.version></cucumber.version>
     </properties>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+            <id>central2</id>
+            <url>https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite-api</url>
+        </repository>
+    </repositories>
+
 
     <dependencies>
         <dependency>
@@ -52,6 +64,19 @@
             <version>5.13.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.29.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit-platform-engine</artifactId>
+            <version>7.29.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
